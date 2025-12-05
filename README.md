@@ -6,6 +6,7 @@ Student Report Management System(SRMS) (C Program)
 A simple and efficient Student Management System written in C, featuring user authentication with role-based access control. The system stores student records and user credentials in text files, enabling easy usage without requiring a database.
 
 Features:
+
 User Login System-
 Reads credentials from credentials.txt
 Supports Admin, Staff, and Guest roles
@@ -29,6 +30,7 @@ View student list
 Search student
 
 Functionalities:
+
 Student Operations-
 AddStudent() → Add roll, name, and marks
 DisplayStudents() → List all student records
