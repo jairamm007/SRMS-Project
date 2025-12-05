@@ -1,14 +1,14 @@
 # SRMS-Project
 This C program implements a role-based student record management system where users (admin, staff, guest) can log in with credentials and access specific features. Depending on their role, users can view, add, update, search, or delete student information stored in a text file.
 
-Student Report Management System(SRMS) (C Program)
+**Student Report Management System(SRMS) (C Program)**
 
 A simple and efficient Student Management System written in C, featuring user authentication with role-based access control. The system stores student records and user credentials in text files, enabling easy usage without requiring a database.
 
-Features:
+**Features:**
 
 
-User Login System-
+**User Login System-**
 
 Reads credentials from credentials.txt
 
@@ -17,7 +17,7 @@ Supports Admin, Staff, and Guest roles
 Restricts access to functions based on user role
 
 
-Admin Privileges-
+**Admin Privileges-**
 
 Add new student records
 
@@ -30,7 +30,8 @@ Update student details
 Delete a student record
 
 
-Staff Privileges-
+**Staff Privileges-**
+
 Add student
 
 Display student list
@@ -40,7 +41,7 @@ Search student
 Update student
 
 
-Guest Privileges-
+**Guest Privileges-**
 
 View student list
 
@@ -48,10 +49,10 @@ Search student
 
 
 
-Functionalities:
+**Functionalities:**
 
 
-Student Operations-
+**Student Operations-**
 
 AddStudent() → Add roll, name, and marks
 
@@ -64,7 +65,7 @@ UpdateStudent() → Modify existing record
 DeleteStudent() → Remove a student entry
 
 
-Role-Based Menus-
+**Role-Based Menus-**
 
 adminMenu()
 
