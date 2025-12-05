@@ -8,39 +8,39 @@ A simple and efficient Student Management System written in C, featuring user au
 Features:
 
 User Login System-
-Reads credentials from credentials.txt
-Supports Admin, Staff, and Guest roles
-Restricts access to functions based on user role
+Reads credentials from credentials.txt,
+Supports Admin, Staff, and Guest roles,
+Restricts access to functions based on user role.
 
 Admin Privileges-
-Add new student records
-Display all student records
-Search for a student
-Update student details
-Delete a student record
+Add new student records,
+Display all student records,
+Search for a student,
+Update student details,
+Delete a student record.
 
 Staff Privileges-
-Add student
-Display student list
-Search student
-Update student
+Add student,
+Display student list,
+Search student,
+Update student.
 
 Guest Privileges-
-View student list
-Search student
+View student list,
+Search student.
 
 Functionalities:
 
 Student Operations-
-AddStudent() → Add roll, name, and marks
-DisplayStudents() → List all student records
-SearchStudent() → Search by roll number
-UpdateStudent() → Modify existing record
-DeleteStudent() → Remove a student entry
+AddStudent() → Add roll, name, and marks;
+DisplayStudents() → List all student records;
+SearchStudent() → Search by roll number;
+UpdateStudent() → Modify existing record;
+DeleteStudent() → Remove a student entry.
 
 Role-Based Menus-
-adminMenu()
-staffMenu()
-guestMenu()
+adminMenu();
+staffMenu();
+guestMenu().
 
 Each menu limits features based on the logged-in role.
